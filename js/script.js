@@ -37,7 +37,7 @@ class CountdownTimer {
 }
 const Timer = new CountdownTimer({
   selector: "#timer-1",
-  targetDate: new Date("March 8, 2021"),
+  targetDate: new Date("May 20, 2021"),
 });
 
 const { days, hours, mins, secs } = Timer.getDifferences();
